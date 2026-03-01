@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  // Baris di bawah ini opsional, gunakan jika Anda butuh fitur tertentu
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  /* Next.js versi terbaru sudah otomatis menangani eslint dan strict mode secara optimal */
 };
 
-module.exports = nextConfig;
+export default nextConfig;
