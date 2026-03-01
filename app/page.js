@@ -16,12 +16,14 @@ import {
 // --- 1. KONFIGURASI FIREBASE ---
 // Tempelkan konfigurasi dari Firebase Console kamu di sini
 const firebaseConfig = {
-  apiKey: "AIzaSy...",
-  authDomain: "project-kamu.firebaseapp.com",
-  projectId: "project-kamu",
-  storageBucket: "project-kamu.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abc123"
+  apiKey: "AIzaSyBW3wrWIO3dGvjNvgEoJ7dGCov6xwBgexw",
+  authDomain: "inventory-23fd2.firebaseapp.com",
+  databaseURL: "https://inventory-23fd2-default-rtdb.firebaseio.com",
+  projectId: "inventory-23fd2",
+  storageBucket: "inventory-23fd2.firebasestorage.app",
+  messagingSenderId: "57860150315",
+  appId: "1:57860150315:web:c4b8a970ce978565cec66e",
+  measurementId: "G-B7YJDXYVFV"
 };
 
 // Inisialisasi Firebase
